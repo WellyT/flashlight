@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "flashLight",
+    "slug": "flashlight",
+    "owner":"wellyt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/logoS.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.outlier.flashlight"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
